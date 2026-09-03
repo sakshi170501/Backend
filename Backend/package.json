@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "homepage": "https://github.com/sakshi170501/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/sakshi170501/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshi170501/Backend.git"
+  },
+  "license": "ISC",
+  "author": "sakshi kumari",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
