@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "a abackend at chai aur code channel-youtube",
-  "type": "commonjs",
+  "type": "module",
   "keywords": [
     "javascript",
     "chai",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "author": "Sakshi Kumari",
   "main": "index.js",
-  "type":"module"
+
   "scripts": {
     "dev":"nodemon src/index.js"
 
